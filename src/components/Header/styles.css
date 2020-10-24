@@ -1,0 +1,10 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.souCatadorButton {
+  color: #DDD !important;
+  border: 1px solid #FFF !important;
+  font-weight: bold !important;
+}

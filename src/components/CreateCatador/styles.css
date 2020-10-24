@@ -1,0 +1,14 @@
+.form-container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container form {
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,16 @@
+.search-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbarInput {
+  width: 60vw;
+  border-radius: 21px !important;
+  /* border: 1px solid #00503c !important */
+}
+
+.regionSelect {
+  margin-left: 5px;
+}
