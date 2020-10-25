@@ -1,8 +1,12 @@
 import React from 'react'
 import CreateCatador from '../components/CreateCatador'
+import Header from "../components/Header";
 
-export default function CreateCatadorForm() {
+export default function CreateCatadorForm(props) {
   return(
-    <CreateCatador />
-  )
+        <>
+        <Header user={props.location?.state} />
+        <CreateCatador />
+      </>
+  );
 }

@@ -1,0 +1,15 @@
+body{
+    overflow-y: visible;
+  }
+
+  .logo {
+    align-items: center !important;
+    justify-content: center;
+    display: flex;
+  }
+
+  .logo img {
+      height: 190px;
+      margin-top: 180px;
+  }
+

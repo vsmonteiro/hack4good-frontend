@@ -1,0 +1,35 @@
+.info-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-form .MuiFormControl-root {
+  margin: 8px 1px !important;
+}
+
+.catador-dialog {
+  text-align: justify;
+  min-width: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-btn {
+  position: absolute;
+  right: 5px;
+  color: #fff;
+}
+
+.MuiDialog-container h3 {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px 0;
+}

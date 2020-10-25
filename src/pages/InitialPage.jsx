@@ -1,12 +1,16 @@
 import React from "react";
-import Header from "../components/Header";
+import Logo from "../components/Logo";
 import SearchBar from "../components/SearchBar";
+import Footer from '../components/Footer';
+import Header from "../components/Header";
 
-export default function InitialPage() {
+export default function InitialPage(props) {
   return (
-    <>
-      <Header title='Qual foi' />
+    <div>
+      <Header user={props.location?.state} />
+      <Logo />
       <SearchBar />
-    </>
+      <Footer />
+    </div>
   );
 }

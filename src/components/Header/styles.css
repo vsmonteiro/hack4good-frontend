@@ -3,8 +3,60 @@
   justify-content: space-between;
 }
 
-.souCatadorButton {
-  color: #DDD !important;
+.toolbar a {
+  text-decoration: none;
+}
+
+.infoButtons{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.abaInfoButton{
+  color: #FFF !important;
+  font-weight: bold !important;
+  margin-right: 50px;
+}
+
+.abaInfoButton:focus{
+  opacity: 0.3;
+  border: none !important;
+  outline:none !important;
+}
+
+.abaInfoButton:hover {
+  opacity: 0.3;
+}
+
+.SignUpButton{
+  color: #fff !important;
   border: 1px solid #FFF !important;
   font-weight: bold !important;
+}
+
+.SignUpButton:hover {
+  opacity: 0.3;
+}
+
+.SignUpButton:focus{
+  outline:none !important;
+}
+
+.LoginButton{
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.LoginButton:hover {
+  opacity: 0.3;
+}
+
+.LoginButton:focus{
+  border: none !important;
+  outline:none !important;
+}
+
+a img{
+  height: 40px;
 }

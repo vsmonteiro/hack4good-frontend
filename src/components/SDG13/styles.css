@@ -1,0 +1,14 @@
+.materialcolumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;    
+}
+
+.materialrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;      
+    padding-bottom: 250px; 
+}

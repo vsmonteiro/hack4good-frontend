@@ -1,8 +1,10 @@
 .form-container{
+  margin-top: 1cm !important;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  /* width: 300px */
 }
 
 .form-container form {
@@ -11,4 +13,40 @@
   background-color: #FFF;
   display: flex;
   flex-direction: column;
+}
+
+.uploadButton {
+  width: 100%;
+  color: #FFF !important;
+  transition: opacity 0.4;
+  background-color: #00503c !important;
+  font-weight: bold !important;
+}
+
+.uploadButton:hover{
+  opacity: 0.7;
+}
+
+.PrivateNotchedOutline-legendLabelled-3 > span {
+  color: #000 !important
+}
+
+.form-container form .MuiFormControl-root {
+  margin: 8px 1px !important;
+}
+
+.termsOfService {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.link-span{
+  color: green;
+}
+
+.link-span:hover {
+  cursor: pointer;
+  color: green;
+  text-decoration: underline;
 }
